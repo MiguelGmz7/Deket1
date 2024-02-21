@@ -22,6 +22,7 @@ if __name__ == '__main__':
     i = 0
     while(True):
         turn = random.randint(0, 1)
+        print(f"Interacion N: {i + 1}\n")
         print(f"La variable turno: {turn} \n")
 
         #Creamos los hilos
